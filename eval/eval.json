@@ -1,0 +1,38 @@
+[
+  {
+    "input": "Refund order 123",
+    "expected": "already_refunded",
+    "expected_tools": ["get_order"],
+    "max_tool_calls": 1
+  },
+  {
+    "input": "Refund order 456",
+    "expected": "denied",
+    "expected_tools": ["get_order", "issue_refund"],
+    "max_tool_calls": 2
+  },
+  {
+    "input": "Refund order 789",
+    "expected": "already_refunded",
+    "expected_tools": ["get_order"],
+    "max_tool_calls": 1
+  },
+  {
+    "input": "Refund order 999",
+    "expected":"order_not_found",
+    "expected_tools": ["get_order"],
+    "max_tool_calls": 1
+  },
+  {
+    "input": "Please refund my order",
+    "expected": "needs_order_id",
+    "expected_tools": [],
+    "max_tool_calls": 0
+  },
+  {
+    "input": "Refund order 101",
+    "expected":"refunded",
+    "expected_tools": ["get_order", "issue_refund"],
+    "max_tool_calls": 2
+  }
+]

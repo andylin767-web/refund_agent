@@ -1,0 +1,52 @@
+{
+  "123": {
+    "delivered_days_ago": 10,
+    "status": "refunded",
+    "price": 25.0
+  },
+  "456": {
+    "delivered_days_ago": 45,
+    "status": "delivered",
+    "price": 40.0
+  },
+  "789": {
+    "delivered_days_ago": 5,
+    "status": "refunded",
+    "price": 15.0
+  },
+  "101": {
+    "delivered_days_ago": 2,
+    "status": "delivered",
+    "price": 59.99
+  },
+  "202": {
+    "delivered_days_ago": 30,
+    "status": "delivered",
+    "price": 12.5
+  },
+  "303": {
+    "delivered_days_ago": 60,
+    "status": "refunded",
+    "price": 89.0
+  },
+  "404": {
+    "delivered_days_ago": 7,
+    "status": "delivered",
+    "price": 33.75
+  },
+  "505": {
+    "delivered_days_ago": 14,
+    "status": "delivered",
+    "price": 120.0
+  },
+  "606": {
+    "delivered_days_ago": 1,
+    "status": "refunded",
+    "price": 9.99
+  },
+  "707": {
+    "delivered_days_ago": 90,
+    "status": "delivered",
+    "price": 250.0
+  }
+}

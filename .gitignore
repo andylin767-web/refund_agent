@@ -1,0 +1,38 @@
+# Bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+junit.xml
+
+# Virtual environments and local configuration
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Build output
+build/
+dist/
+*.egg-info/
+
+# Editors and operating systems
+.idea/
+.DS_Store
+
+# Local runtime data
+*.db
+*.sqlite3
+logs/
+*.log
+
+# Unrecognized hidden directories
+.*/
+!.github/
+!.vscode/
